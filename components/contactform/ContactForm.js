@@ -44,7 +44,7 @@ function ContactForm() {
                     <label>Email</label>
                     <input
                       id="email"
-                      id="email"
+                      name="email"
                       type="email"
                       onChange={formik.handleChange}
                       value={formik.values.email}
