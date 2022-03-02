@@ -66,7 +66,9 @@ function ContactForm() {
             return (
               <>
                 <FaCheckCircle color="green" size="200" />
-                <p>Thank you for submitting! We'll get back to you soon...</p>
+                <p>
+                  Thank you for submitting! We&apos;ll get back to you soon...
+                </p>
               </>
             );
           } else if (status == "failed") {
@@ -74,8 +76,8 @@ function ContactForm() {
               <>
                 <FaTimesCircle color="red" size="200" />
                 <p>
-                  I'm sorry, I'm afraid that we haven't recieved your contact
-                  form. Maybe try again? (or run away)
+                  I&apos;m sorry, I&apos;m afraid that we haven&apos;t recieved
+                  your contact form. Maybe try again? (or run away)
                 </p>
               </>
             );
